@@ -5,10 +5,12 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
-// Given a time in -hour AM/PM format, convert it to military (24-hour) time.
+/*
+ Given a time in 12-hour AM/PM format, convert it to military (24-hour) time.
 
-// Sample input: 07:05:45PM
-// Sample output: 19:05:45
+ Sample input: 07:05:45PM
+ Sample output: 19:05:45
+ */
 class Result {
 
     /*

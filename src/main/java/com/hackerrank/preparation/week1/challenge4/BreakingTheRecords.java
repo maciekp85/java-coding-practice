@@ -6,17 +6,22 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-// Maria plays college basketball and wants to go pro. Each season she maintains a record of her play.
-// She tabulates the number of times she breaks her season record for most points and least points in a game.
-// Points scored in the first game establish her record for the season, and she begins counting from there.
+/*
+Maria plays college basketball and wants to go pro. Each season she maintains a record of her play.
+She tabulates the number of times she breaks her season record for most points and least points in a game.
+Points scored in the first game establish her record for the season, and she begins counting from there.
 
-// Input format
-// 4                The first line contains an integer , the number of games.
-// 12 24 10 24      The second line contains  space-separated integers describing the respective values
+Example:
+scores=[12,24,10,24]
 
-// Output
-// 1 1              int[2]: An array with the numbers of times she broke her records.
-//                  Index  is for breaking most points records, and index  is for breaking least points records.
+Input format
+4                The first line contains an integer n, the number of games.
+12 24 10 24      The second line contains n space-separated integers describing the respective values of score(0), score(1), ... ,score(n-1)
+
+Output
+1 1              int[2]: An array with the numbers of times she broke her records and
+                         index 0 is for breaking most points records, and index 1 is for breaking least points records.
+*/
 class Result {
 
     /*

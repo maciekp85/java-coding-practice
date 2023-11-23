@@ -5,18 +5,19 @@ import java.util.*;
 import java.util.stream.*;
 import static java.util.stream.Collectors.toList;
 
-// Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero.
-// Print the decimal value of each fraction on a new line with  places after the decimal.
+/*
+Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero.
+Print the decimal value of each fraction on a new line with  places after the decimal.
 
-// Sample input
-// 6            arr[] size n=6
-// -4 3 -9 0 4 1
+Sample input:               Function:
+6                           arr[] size n=6
+-4 3 -9 0 4 1               arr = [-4, 3, -9, 0, 4, 1]
 
-// Sample output
-// 0.500000
-// 0.333333
-// 0.166667
-
+Sample output:
+0.500000
+0.333333
+0.166667
+*/
 class Result {
 
     /*
