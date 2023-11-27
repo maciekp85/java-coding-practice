@@ -53,7 +53,7 @@ class Result {
 
         for (int i=0; i < ar.size(); i++) {
             element = ar.get(i);
-            for (int j=i+1; j < ar.size(); j++) {
+            for (int j=0; j < ar.size(); j++) {
                 if (i < j) {
                     sum = element + ar.get(j);
                     if (sum%k == 0) {
